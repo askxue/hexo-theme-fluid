@@ -1,7 +1,8 @@
 <%
 page.layout = "tag"
-page.title = [__('tag.title'), page.tag].join(" - ")
-page.subtitle = [__('tag.subtitle'), page.tag].join(" - ")
+<!-- 利用tag来实现二级menu的跳转，将文章分类。 -->
+page.title = page.tag
+page.subtitle = page.tag
 page.banner_img = theme.tag.banner_img
 page.banner_img_height = theme.tag.banner_img_height
 page.banner_mask_alpha = theme.tag.banner_mask_alpha
