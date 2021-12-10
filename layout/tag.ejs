@@ -2,7 +2,8 @@
 page.layout = "tag"
 <!-- 利用tag来实现二级menu的跳转，将文章分类。 -->
 page.title = page.tag
-page.subtitle = page.tag
+<!-- 自定义subtitle -->
+page.subtitle = theme.tag.tags_subtitle[page.tag] || page.tag
 page.banner_img = theme.tag.banner_img
 page.banner_img_height = theme.tag.banner_img_height
 page.banner_mask_alpha = theme.tag.banner_mask_alpha
